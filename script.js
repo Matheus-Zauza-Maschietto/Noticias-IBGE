@@ -17,7 +17,7 @@ async function loadNews() {
 async function getNews() {
     const queryParam = new URLSearchParams(window.location.search);
 
-    let url = `http://servicodados.ibge.gov.br/api/v3/noticias${window.location.search}`
+    let url = `https://servicodados.ibge.gov.br/api/v3/noticias${window.location.search}`
 
     return await fetch(url)
         .then(response => response.json())
