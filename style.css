@@ -92,7 +92,7 @@ header>form {}
     #filtro {
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: 10px;
     }
 }
 
@@ -222,6 +222,7 @@ header>form {}
 
 .card-tags{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }

@@ -232,7 +232,7 @@ function getPaginationList(page, quantidadePages){
             pages.push(i)
         }
     }
-    else if(page < 5){
+    else if(page <= 5){
         for(let i = 1; i <= 10; i++){
             pages.push(i)
         }
