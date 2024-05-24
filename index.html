@@ -12,13 +12,13 @@
     <header>
         <h1>Portal de Notícias do IBGE</h1>
         <form action="" onsubmit="searchNews(event)" id="search-form">
-            <input type="text" name="" id="search-input">
+            <input type="text" name="" id="search-input" placeholder="Buscar Notícia por Termo">
             <button type="submit" id="search-button">
                 🔍
             </button>
         </form>
         <div id="filtro" onclick="openModal()">
-            <svg id="filtro-icon" width="20" height="20" fill="#f0f0f0" viewBox="0 0 80 90" focusable="false"
+            <svg id="filtro-icon" width="25" height="25" fill="#f0f0f0" viewBox="0 0 80 90" focusable="false"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="m 0,0 30,45 0,30 10,15 0,-45 30,-45 Z"></path>
             </svg>
@@ -28,6 +28,7 @@
         </div>
     </header>
     <main>
+       
         <dialog open id="modal">
             <span id="modal-close" onclick="closeModal()">&#x2715;</span>
             <form action="" onsubmit="setFilters(event)" onload="loadFilters()">

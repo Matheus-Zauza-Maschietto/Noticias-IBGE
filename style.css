@@ -52,6 +52,13 @@ header>h1 {
     position: relative;
     width: min-content;
     height: min-content;
+    width: 70vw;
+    min-width: 200px;
+}
+
+hr{
+    max-width: 100ch;
+    margin: auto;
 }
 
 #search-button {
@@ -69,8 +76,7 @@ header>h1 {
 }
 
 #search-input {
-    min-width: 350px;
-    width: 70vw;
+    width: 100%;
     height: 35px;
     border-radius: 5px;
     border: none;
@@ -82,7 +88,7 @@ header>form {}
 #filtro {
     position: absolute;
     right: 20px;
-    bottom: 20px;
+    bottom: 30px;
     font-size: 16px;
     color: white;
     cursor: pointer;
@@ -90,8 +96,6 @@ header>form {}
 
 @media screen and (max-width: 760px) {
     #filtro {
-        position: absolute;
-        bottom: 0;
         right: 10px;
     }
 }

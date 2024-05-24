@@ -78,6 +78,7 @@ function mountCard(img, title, intro, tags, time, link) {
             <button class="card-button" onclick="window.location.href='${link}';">Leia Mais</button>
         </div>
         </li>
+        <hr>
     `
     return cardHtmlString;
 }
